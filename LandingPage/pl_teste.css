@@ -1,0 +1,170 @@
+/*------BODY--------*/
+
+#orçamento {
+    background: linear-gradient(135deg, #e0aaff, #f3e8ff, #ffffff);
+}
+
+#logo img {
+    width: 50%;
+    max-width: 300px;
+    min-width: 150px;
+    height: auto;
+    margin-right: 50%;
+    margin-left: 40%;
+    background-color: linear-gradient(135deg, #e0aaff, #f3e8ff, #ffffff);
+    
+}
+
+h1{
+    margin-left: 35%;
+    color: rgb(140, 85, 195);
+}
+
+h2{
+    margin-left: 40%;
+    margin-top: 10%;
+    color: rgb(140, 85, 195);
+}
+
+#plano {
+    padding: 80px 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#plano h2{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+/* Grid */
+.grid-plano {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+}
+
+.card-item {
+    background: #de8ee3;
+    padding: 25px;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-item img {
+    width: 100%;
+}
+
+/* Container geral */
+#plano {
+    padding: 80px 20px;
+}
+
+/* Grid dos planos */
+.grid-plano {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+/* Card */
+.card-item {
+    background: linear-gradient(135deg, #e9d9fa, #e0aaff);
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(128, 0, 128, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.card-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(128, 0, 128, 0.25);
+}
+
+/* Título do plano */
+.card-item h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #a367b5;
+}
+
+/* Linha divisória */
+.card-item hr {
+    border: none;
+    height: 1px;
+    background: #9f58c3;
+    margin: 20px 0;
+}
+
+/* Lista de benefícios */
+.card-item ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.card-item ul li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #a367b5;
+}
+
+/* Preço */
+.preco {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #a367b5;
+}
+
+.preco span {
+    font-size: 16px;
+    font-weight: normal;
+    color: #481752;
+}
+
+/* Botão */
+.btn-plano {
+    margin-top: 20px;
+    padding: 15px;
+    background: #8846be;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-plano:hover {
+    background: #a367b5;
+}
+
+/*Contato*/
+
+#contato h1 {
+    margin-left: 42%;
+    color: rgb(140, 85, 195);
+}
+
+#contato ul{
+    margin-left: 42%;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #a367b5;
+}
+
+#contato ul {
+    margin-left: 40%;
+    display: flex;
+    gap: 20px; 
+    list-style: none; 
+    padding: 0;
+}
+
+#contato li {
+    display: inline-block;
+}
